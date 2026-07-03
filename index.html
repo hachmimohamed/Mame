@@ -5,7 +5,11 @@
     <style>
         body { background: #121212; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
         .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-        .card { background: #333; padding: 20px; border-radius: 15px; text-decoration: none; color: white; }
+        .card { background: #333; padding: 20px; border-radius: 15px; text-decoration: none; color: white; transition: 0.3s; }
+        
+        /* Style pour la jaquette */
+        .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin-bottom: 10px; }
+        
         /* Style pour la sélection avec la télécommande */
         .card:focus { background: #ff9800; transform: scale(1.05); outline: none; }
     </style>
@@ -14,21 +18,27 @@
     <h1>Mes Jeux MAME</h1>
     <div class="grid">
         <a href="https://www.mediafire.com/file/4z396t9xkkkgq9r/ghouls.zip/file" class="card">
-            <h3>Jeu 1</h3>
+            <img src="URL_IMAGE_1" alt="Ghouls'n Ghosts">
+            <h3>Ghouls'n Ghosts</h3>
         </a>
         <a href="https://www.mediafire.com/file/r1f9pjie93dl50l/mslug3.zip/file" class="card">
-            <h3>Jeu 2</h3>
+            <img src="URL_IMAGE_2" alt="Metal Slug 3">
+            <h3>Metal Slug 3</h3>
         </a>
         <a href="https://www.mediafire.com/file/hbs5ejk30drdjza/T%25C3%25A9l%25C3%25A9charger_ROM_Final_Fight_%2528USA_900424%2529.apk/file" class="card">
-            <h3>Jeu 3</h3>
+            <img src="URL_IMAGE_3" alt="Final Fight">
+            <h3>Final Fight</h3>
         </a>
         <a href="LIEN_MEDIAFIRE_4" class="card">
+            <img src="URL_IMAGE_4" alt="Jeu 4">
             <h3>Jeu 4</h3>
         </a>
         <a href="LIEN_MEDIAFIRE_5" class="card">
+            <img src="URL_IMAGE_5" alt="Jeu 5">
             <h3>Jeu 5</h3>
         </a>
         <a href="LIEN_MEDIAFIRE_6" class="card">
+            <img src="URL_IMAGE_6" alt="Jeu 6">
             <h3>Jeu 6</h3>
         </a>
     </div>
